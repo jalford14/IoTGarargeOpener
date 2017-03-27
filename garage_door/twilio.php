@@ -5,11 +5,11 @@
 <Response>
     <Message><?php 
 
-	$url = 'https://api.particle.io/v1/devices/30002f000c51343334363138/led?access_token=b25927445524a0d2b01e1bbd9896ad4d410b723b';
+	$url = 'https://api.particle.io/v1/devices/DEVICEID/led?access_token=ACCESSTOKEN';
  
 	//if($_REQUEST['Digits'] == '55231'){
 		$data = array(
-			'access_token' => 'b25927445524a0d2b01e1bbd9896ad4d410b723b', 
+			'access_token' => ACCESS TOKEN GOES HERE, 
 			'params' => 'D0,HIGH'
 		);
  
