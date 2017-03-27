@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XML>
+<Response>
+    <Gather action="http://jalford14.com/csis316/garage_door/something.html" method="GET">
+        <Say>
+          Please enter your PIN number, followed by the pound sign.
+        </Say>
+    </Gather>
+    <Say>We didn't receive any input. Goodbye!</Say>
+</Response>
